@@ -95,6 +95,12 @@ set @resources='
   <LocaleResource Name="Plugins.Payments.PayPalDirect.WebhookError">
     <Value>Webhook was not created (see details in the log)</Value>
   </LocaleResource>
+  <LocaleResource Name="Plugins.ExchangeRate.EcbExchange.SetCurrencyToEURO">
+    <Value></Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExchangeRate.EcbExchange.Error">
+    <Value>You can use ECB (European central bank) exchange rate provider only when the primary exchange rate currency is supported by ECB</Value>
+  </LocaleResource>
 </Language>
 '
 
